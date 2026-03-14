@@ -158,6 +158,7 @@ To add a new dataset, simply add a new entry with the appropriate file, variable
 - Temperature is labeled as **°C** in the UI (the underlying NCEP data is in Kelvin; relabeling only, no conversion applied).
 - The app uses `@st.cache_data` to cache dataset loading for performance.
 - All datasets are pre-loaded at startup to avoid repeated disk reads during interaction.
+- Deployment Link: https://pyclimaexplorer-hackitoutgit-gjvxe4xhexutdroldqbonc.streamlit.app/
 
 ---
 
